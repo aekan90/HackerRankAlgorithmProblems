@@ -4,11 +4,11 @@ namespace _1_solve_me_first
 {
     internal class Program
     {
-
+        // https://www.hackerrank.com/challenges/solve-me-first/problem
         public static int SolveMeFirst(int a, int b)
         {
             // Hint: Type return a+b; below  
-            if ((1 < a && a < 100) && (1 < b && b < 100))
+            if ((1 <= a && a <= 1000) && (1 <= b && b <= 1000))
             {
                 return a + b;
             }
